@@ -1,0 +1,14 @@
+Pseudocode
+
+Mencari Akar Persamaaan Kuadrat X1 dan X2
+Ax2+Bx+C=0
+Start
+Input A, B ,and C
+IF A==0:
+    Print "persamaan linier"
+Else:
+    X1 = (-B+sqrt((B*B)-(4*A*C)))/(2*A)
+    X2 = (-B-sqrt((B*B)-(4*A*C)))/(2*A)
+    Print X1
+    Print X2
+End

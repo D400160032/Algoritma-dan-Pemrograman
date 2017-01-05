@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+char hasilujian;
+printf("Masukkan Nilai Ujian : ");
+scanf("%c",&hasilujian);
+switch(hasilujian)
+{
+case 'A':
+        printf("Sangat Baik\n");
+        break;
+case 'B':
+case 'C':
+        printf("Baik\n");
+        break;
+case 'D':
+        printf("Cukup\n");
+        break;
+case 'F':
+        printf("Sebaiknya coba lagi\n");
+        break;
+default:
+        printf("Gagal\n");
+}
+printf("Nilai anda adalah %c\n",hasilujian);
+}
